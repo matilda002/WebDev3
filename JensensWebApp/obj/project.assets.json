@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Hanne\\.nuget\\packages\\": {}
+    "C:\\Users\\matil\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hanne\\OneDrive\\Skrivbord\\JENSEN\\HuvudProject\\JensenWebApplication\\JensensWebApp\\JensensWebApp.csproj",
+      "projectUniqueName": "C:\\Users\\matil\\source\\repos\\WebDev3\\JensensWebApp\\JensensWebApp.csproj",
       "projectName": "JensensWebApp",
-      "projectPath": "C:\\Users\\Hanne\\OneDrive\\Skrivbord\\JENSEN\\HuvudProject\\JensenWebApplication\\JensensWebApp\\JensensWebApp.csproj",
-      "packagesPath": "C:\\Users\\Hanne\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hanne\\OneDrive\\Skrivbord\\JENSEN\\HuvudProject\\JensenWebApplication\\JensensWebApp\\obj\\",
+      "projectPath": "C:\\Users\\matil\\source\\repos\\WebDev3\\JensensWebApp\\JensensWebApp.csproj",
+      "packagesPath": "C:\\Users\\matil\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\matil\\source\\repos\\WebDev3\\JensensWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Hanne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\matil\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
