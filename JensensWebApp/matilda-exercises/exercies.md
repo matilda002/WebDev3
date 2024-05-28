@@ -29,7 +29,7 @@ Create a simple image gallery with three images. Each image should be a thumbnai
 links to a larger version of the image. Use appropriate elements and attributes for the
 images and the links.
 
-***Exercise Three**
+***Exercise Three***
 Create a simple table with a header row and three rows of data. The table should display
 information about three different products, including the product name, price, and available
 quantity. Use appropriate elements and attributes for the table.
