@@ -1,62 +1,87 @@
-
 <!DOCTYPE html>
 
 <html>
-    <title>
-        images
-    </title>
-    <style type="text/css">
-        body {
+<title>
+    images
+</title>
+<style type="text/css">
+    body {
         color: #665544;
-        background-color: #d4d0c6;
-        background-image: url("files/Roadahead.jpg");
+        background-color: #bcd4ab;
+        background-image: url("files/Backdrop.jpg");
+        background-size: 100% 140%;
+        /* Adjust the percentage values to your liking */
         font-family: Georgia, "Times New Roman", serif;
-        text-align: center;}
-        .wrapper {
+        text-align: center;
+    }
+
+    .wrapper {
         width: 720px;
-        margin: 0px auto;}
-        .header {
-        margin: 40px 0px 20px 0px;}
-        .entry {
+        margin: 0px auto;
+    }
+
+    .header {
+        margin: 40px 0px 20px 0px;
+    }
+
+    .entry {
         width: 220px;
         float: left;
         margin: 10px;
         height: 198px;
         background-image: url("files/repair-shop-sign.jpg");
         background-repeat: no-repeat;
-        background-position: bottom;}
-        figure {
+        background-position: bottom;
+    }
+
+    figure {
         display: block;
-        width: 202px;
+        width: 131px;
         height: 170px;
         background-color: #e7e3d8;
         padding: 9px;
-        text-align: left;}
-        figure img {
-        width: 200px;
+        text-align: left;
+    }
+
+    figure img {
+        width: 130px;
         height: 150px;
-        border: 1px solid #d6d6d6;}
-        figcaption {
+        border: 1px solid #d6d6d6;
+    }
+
+    figcaption {
         background-image: url("files/OIP.jpg");
         padding-left: 20px;
-        background-repeat: no-repeat;}
-    </style>
-    <head>
-        Cat Catalogue
-    </head>
-    <body>
-        <div class="wrapper">
+        background-repeat: no-repeat;
+    }
+</style>
+
+<head>
+    Cat Catalogue
+</head>
+
+<body>
+    <div class="wrapper">
         <div class="header">
-        <img src="files/cat.jpg" alt="Cute cats" width="456" height="122">
-        <p>Cats are awesome so here comes asome pics.</p>
+            <img src="files/cat.jpg" alt="Cute cats" width="180" height="122">
+            <p>Cats are awesome so here come some pics.</p>
         </div>
         <div class="entry">
-        <figure><img src="files/blackcat.jpg" alt="Helianthus">
-        <figcaption>Black Cat</figcaption>
-        </figure>
+            <figure>
+                <a href="files/blackcat_large.jpg">
+                    <img src="files/blackcat.jpg" alt="Black cat">
+                </a>
+                <figcaption>Black Cat</figcaption>
+            </figure>
         </div>
-        
+        <div class="entry">
+            <figure>
+                <a href="files/browncat_large.jpg">
+                    <img srs="files/browncat.jpg" alt="Brown cat">
+                </a>
+            </figure>
         </div>
-       
-       </body> 
-<html/>
+    </div>
+</body>
+
+</html>
