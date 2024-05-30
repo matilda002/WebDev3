@@ -1,0 +1,13 @@
+body {
+    font-family: 'Georgia', 'Garamond', serif;}
+
+h1, h2 {
+    font-family: 'Papyrus', fantasy;
+    color: #396723;}
+    
+p {
+    color: #1e381e;}
+    
+p.one {
+    color: #4df51a;
+    font-size: 20px;}
