@@ -1,4 +1,4 @@
-Exercises
+Exercises HTML
 ==============
 
 # Structure HTML
