@@ -1,0 +1,35 @@
+body {
+    color: #283e27;
+    background-color: #95c991;
+    text-align: center;
+    align-items: center;
+}
+
+table {
+    border-style: double;
+    border-width: 5px;
+    border-color: #283e27;
+    background-color: #5b8266;
+    margin: auto;
+}
+
+th {
+    color: #e4decc;
+    background-color: #5b8266;
+    border: 2px solid #dfec29;
+}
+
+td, th{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+tr {
+    background-color: lightgreen;
+}
+
+tr:hover{
+    background-color: yellow;
+    color: blue;
+}
