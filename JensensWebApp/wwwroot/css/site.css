@@ -22,8 +22,25 @@ header .navbar {
     border-bottom: 1px solid #1861ac;
 }
 
+header .navbar-brand,
+header .nav-link {
+    font-family: "Times New Roman", Times, serif;
+    color: #ffffff !important;
+}
+
+
 .center-title {
     text-align: center;
 }
+
+label {
+    font-family: "Times New Roman", Times, serif;
+    font-size: calc(14px + 5px);
+}
+
+.select-dropdown:focus {
+    box-shadow: 0 0 0 0.5rem rgba(151, 211, 202, 0.75) !important; 
+}
+
 
 
