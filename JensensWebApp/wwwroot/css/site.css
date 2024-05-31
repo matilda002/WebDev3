@@ -16,3 +16,7 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.center-title {
+    text-align: center;
+}
