@@ -17,6 +17,13 @@ body {
   margin-bottom: 60px;
 }
 
+header .navbar {
+    background-color: #97d3cabf;
+    border-bottom: 1px solid #1861ac;
+}
+
 .center-title {
     text-align: center;
 }
+
+
