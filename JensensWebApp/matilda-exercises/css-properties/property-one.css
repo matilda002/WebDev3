@@ -1,0 +1,42 @@
+/***Style article elements with different properties:**
+Style the heading with a larger font size and a different color. Style the author and
+publication date elements with a different font color and a background color. Also, add a
+border and some padding to the article element.*/
+body {
+    background-color: #95c991;
+}
+
+article {
+    font-family: 'Georgia', 'Garamond', serif;
+    color: #283e27;
+    background-color: antiquewhite;
+    border: 4px solid #283e27;
+    padding: 20px;
+    margin: auto;
+    max-width: 800px;
+}
+
+article h1 {
+    font-family: 'Papyrus', fantasy;
+    font-size: 40px;
+    color: #396723;
+    margin: 20px;
+    text-align: center;
+}
+    
+article #author{
+    color: #c160b9;
+    font-size: 20px;
+    padding-right: 20px;
+    display: inline-block;
+}
+
+article #publication {
+    color: #681f62;
+    font-size: 10px;
+    display: inline-block;
+}
+
+article p {
+    line-height: 1.6;
+}
