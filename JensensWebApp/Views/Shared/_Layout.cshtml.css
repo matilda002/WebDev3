@@ -46,7 +46,8 @@ button.accept-policy {
     white-space: nowrap;
     line-height: 60px;
     background-color: #2b3b39cc;
-    color: #ffffff;
+    color: #ffffff !important;
+    font-family: "Times New Roman", Times, serif !important;
 }
 
 
