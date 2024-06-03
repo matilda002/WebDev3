@@ -38,6 +38,20 @@ label {
     font-size: calc(14px + 5px);
 }
 
+select.form-select {
+    font-family: "Times New Roman", Times, serif;
+    font-size: calc(14px + 5px);
+    color: #000; /* Text color */
+    background-color: #97d3cabf; /* Background color */
+    border: 1px solid #1861ac; /* Border color */
+}
+
+select.form-select option {
+    font-family: "Times New Roman", Times, serif;
+    font-size: calc(14px + 5px);
+    color: #000; /* Text color */
+}
+
 .select-dropdown:focus {
     box-shadow: 0 0 0 0.5rem rgba(151, 211, 202, 0.75) !important; 
 }
