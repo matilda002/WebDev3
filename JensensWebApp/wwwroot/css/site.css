@@ -41,15 +41,15 @@ label {
 select.form-select {
     font-family: "Times New Roman", Times, serif;
     font-size: calc(14px + 5px);
-    color: #000; /* Text color */
-    background-color: #97d3cabf; /* Background color */
-    border: 1px solid #1861ac; /* Border color */
+    color: #000; 
+    background-color: #97d3cabf; 
+    border: 1px solid #1861ac; 
 }
 
 select.form-select option {
     font-family: "Times New Roman", Times, serif;
     font-size: calc(14px + 5px);
-    color: #000; /* Text color */
+    color: #000; 
 }
 
 .select-dropdown:focus {
