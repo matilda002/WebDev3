@@ -30,6 +30,14 @@ h5.card-title{
 
 p.card-text{
   color: #1e4f5a;
+  visibility: hidden;
+  transform: translateY(80%);
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+small.text-muted{
+  visibility: visible;
+  margin-bottom: 20px;
 }
 
 a.card-link{
@@ -41,4 +49,14 @@ a.card-link{
 
 a.card-link:visited{
   color: #97d3cabf;
+}
+
+div.card-body:hover{
+  background-color: rgba(160, 227, 239, 0.2);
+  border-radius: 10px;
+}
+
+div.card-body:hover p.card-text{
+  visibility: visible;
+  transform: translateY(0);
 }
