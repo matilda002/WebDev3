@@ -1,2 +1,30 @@
-/*Use the CSS Box Model properties such as padding, margin, and border to create a visually appealing
-table. Add padding and margin between table cells, and give the table a border.*/
+body {
+    color: #283e27;
+    background-color: #95c991;
+    text-align: center;
+    align-items: center;
+}
+
+table {
+    border-style: double;
+    border-width: 5px;
+    border-color: #283e27;
+    background-color: transparent;
+    margin: auto;
+}
+
+th {
+    color: #e9fcee;
+    background-color: #5b8266;
+}
+
+td, th{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid #283e27;
+}
+
+tr {
+    background-color: #e9fcee;
+}
