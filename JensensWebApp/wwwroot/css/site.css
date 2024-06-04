@@ -19,6 +19,7 @@ body {
   color: #0a1011; 
   margin-bottom: 60px;
   background-color: rgb(124, 191, 204);
+  justify-content: center;
 } 
 
 h1, h2, h3, h4, h5, h6 {
@@ -29,4 +30,24 @@ h1, h2, h3, h4, h5, h6 {
 p, span, a, li {
   font-family: "Arial", sans-serif; 
   color: #373939;
+}
+
+h1{
+
+text-align:center !important;
+
+}
+
+
+.navbar-nav
+{
+
+
+
+}
+.navbar-brand{
+
+ text-align: right !important;
+ color: rgb(153, 127, 255) !important;
+
 }
