@@ -43,7 +43,7 @@ select.form-select {
     font-size: calc(14px + 5px);
     color: #000; 
     background-color: #97d3cabf; 
-    border: 1px solid #1861ac; 
+    border: 1px solid #4a627a; 
 }
 
 select.form-select option {

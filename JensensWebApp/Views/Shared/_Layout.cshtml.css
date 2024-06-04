@@ -15,6 +15,7 @@ a {
     color: #fff;
     background-color: #2b3b39cc !important;
     border-color: #1861ac;
+    margin-top: 10px; 
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
@@ -38,6 +39,7 @@ button.accept-policy {
   font-size: 1rem;
   line-height: inherit;
 }
+
 
 .footer {
     position: absolute;
