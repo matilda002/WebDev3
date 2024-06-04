@@ -11,8 +11,13 @@ html {
 html {
   position: relative;
   min-height: 100%;
-}
+} 
 
-body {
-  margin-bottom: 60px;
+div.card {
+  background-color: #fefffd;
+  width: 350px;
+  height: 380px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 20px rgba(8, 51, 59, 0.5);
+  text-align: center;
 }
