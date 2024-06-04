@@ -11,23 +11,23 @@ img {
     margin: 20px;
 }
 
-img.one {
+img#one {
     border: 4px solid #adcead;  
 }
-img.one:hover {
+img#one:hover {
     border: 4px solid #18d018;
 }
 
-img.two{
+img#two{
     border: 4px solid #efef7d;
 }
-img.two:hover {
-    border: 4px solid #fefe00;
+img#two:hover {
+    border: 4px solid #e6b518;
 }
 
-img.three {
+img#three {
     border: 4px solid #9ba2c6;
 }
-img.three:hover {
+img#three:hover {
     border: 4px solid #152887;
 }
