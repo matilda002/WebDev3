@@ -21,3 +21,24 @@ div.card {
   box-shadow: 3px 3px 20px rgba(8, 51, 59, 0.5);
   text-align: center;
 }
+
+h5.card-title{
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+p.card-text{
+  color: #1e4f5a;
+}
+
+a.card-link{
+  color: #1e4f5a;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+a.card-link:visited{
+  color: #97d3cabf;
+}
