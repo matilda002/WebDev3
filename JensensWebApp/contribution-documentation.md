@@ -10,6 +10,7 @@
 - Added a hover effect to show the card-text and change the background color.
 - The cards has a shadow.
 
+
 ## Ahmed's contribution
 
 #### *Branch*: Background-Text
@@ -19,8 +20,13 @@
 - Ändrat färgen på alla textstycken för bättre läsbarhet och design.
 - Ändrat färgen på JensenWebApp-loggan samt flyttat den från dess tidigare position.
 
+
 ## Irina's contribution
 
 #### *Branch*: menusFontColor
-**Changed the card style in *site.css* with the following:**
-- x
+**Changed the menu style in *site.css* with the following:**
+- Changed menu text font
+- Changed dropdown menu font
+- Changed filter button font and color
+- Changed footer and header color
+- Added hover effect for dropdown menu
