@@ -14,7 +14,7 @@ html {
 } 
 
 body {
-  font-family: arial,sans-serif; 
+  font-family: "Arial", sans-serif; 
   font-size: 16px; 
   color: #0a1011; 
   margin-bottom: 60px;
@@ -40,4 +40,51 @@ text-align:center;
  text-align: right;
  color: #997FFF !important;
 
+}
+
+div.card {
+  background-color: #fefffd;
+  width: 350px;
+  height: 380px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 20px rgba(8, 51, 59, 0.5);
+  text-align: center;
+}
+
+h5.card-title{
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+p.card-text{
+  color: #1e4f5a;
+  visibility: hidden;
+  transform: translateY(80%);
+  transition: opacity 0.3s, transform 0.3s;
+  margin-bottom: 100px;
+}
+
+small.text-muted{
+  visibility: visible;
+}
+
+a.card-link{
+  color: #1e4f5a;
+  padding: 6px 12px;
+  font-size: 15px;
+}
+
+a.card-link:visited{
+  color: #97d3cabf;
+}
+
+div.card-body:hover{
+  background-color: rgba(160, 227, 239, 0.2);
+  border-radius: 10px;
+}
+
+div.card-body:hover p.card-text{
+  visibility: visible;
+  transform: translateY(0);
 }
