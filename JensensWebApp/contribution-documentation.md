@@ -13,8 +13,11 @@
 ## Ahmed's contribution
 
 #### *Branch*: Background-Text
-**Changed the card style in *site.css* with the following:**
-- x
+- Justerat bakgrundsfärgen på sidan
+- Justerat textstilen och formatet på huvudrubriker (header), sidfötter (footer) och vanliga textstycken (paragraphs).
+- Justerat så att H1-rubriken ligger centrerad på webbsidan.
+- Ändrat färgen på alla textstycken för bättre läsbarhet och design.
+- Ändrat färgen på JensenWebApp-loggan samt flyttat den från dess tidigare position.
 
 ## Irina's contribution
 
