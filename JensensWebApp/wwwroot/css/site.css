@@ -1,128 +1,128 @@
 html {
-    font-size: 14px;
-    position: relative;
-    min-height: 100%;
+  font-size: 14px;
+  position: relative;
+  min-height: 100%;
 }
 
 @media (min-width: 768px) {
-    html {
-        font-size: 16px;
-    }
+  html {
+    font-size: 16px;
+  }
 }
 
 body {
-    font-family: "Arial", sans-serif;
-    font-size: 16px;
-    color: #0a1011;
-    margin-bottom: 60px;
-    background-color: #7CBFCC;
-    justify-content: center;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  color: #0a1011;
+  margin-bottom: 60px;
+  background-color: #7CBFCC;
+  justify-content: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Times New Roman", serif;
-    color: #040404;
+  font-family: "Times New Roman", serif;
+  color: #040404;
 }
 
 p, span, a, li {
-    color: #373939;
+  color: #373939;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .navbar-brand {
-    text-align: right;
-    color: #1a3d68ff !important;
+  text-align: right;
+  color: #1a3d68ff !important;
 }
 
 header .navbar {
-    background-color: rgba(43, 59, 57, 0.5);
-    border-bottom: 1px solid #4d5e5d;
+  background-color: rgba(43, 59, 57, 0.5);
+  border-bottom: 1px solid #4d5e5d;
 }
 
 .navbar-nav .nav-item a.nav-link {
-    color: #fff;
+  color: #fff;
 }
 
 div.card {
-    background-color: #fefffd;
-    width: 350px;
-    height: 380px;
-    border-radius: 10px;
-    box-shadow: 3px 3px 20px rgba(8, 51, 59, 0.5);
-    text-align: center;
+  background-color: #fefffd;
+  width: 350px;
+  height: 380px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 20px rgba(8, 51, 59, 0.5);
+  text-align: center;
 }
 
 h5.card-title {
-    font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 40px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 p.card-text {
-    color: #1e4f5a;
-    visibility: hidden;
-    transform: translateY(80%);
-    transition: opacity 0.3s, transform 0.3s;
-    margin-bottom: 100px;
+  color: #1e4f5a;
+  visibility: hidden;
+  transform: translateY(80%);
+  transition: opacity 0.3s, transform 0.3s;
+  margin-bottom: 100px;
 }
 
 small.text-muted {
-    visibility: visible;
+  visibility: visible;
 }
 
 a.card-link {
-    color: #1e4f5a;
-    padding: 6px 12px;
-    font-size: 15px;
+  color: #1e4f5a;
+  padding: 6px 12px;
+  font-size: 15px;
 }
 
-    a.card-link:visited {
-        color: #97d3cabf;
-    }
+  a.card-link:visited {
+    color: #97d3cabf;
+  }
 
 div.card-body:hover {
-    background-color: rgba(160, 227, 239, 0.2);
-    border-radius: 10px;
+  background-color: rgba(160, 227, 239, 0.2);
+  border-radius: 10px;
 }
 
-    div.card-body:hover p.card-text {
-        visibility: visible;
-        transform: translateY(0);
-    }
+  div.card-body:hover p.card-text {
+    visibility: visible;
+    transform: translateY(0);
+  }
 
 label {
-    font-family: "Times New Roman", serif;
-    font-size: 19px;
-    font-weight: bold;
-    color: #040404;
+  font-family: "Times New Roman", serif;
+  font-size: 19px;
+  font-weight: bold;
+  color: #040404;
 }
 
 select.form-select {
+  font-family: "Times New Roman", serif;
+  font-size: 19px;
+  color: #040404;
+  background-color: #fefffd;
+  border-radius: 10px;
+}
+
+  select.form-select option {
     font-family: "Times New Roman", serif;
     font-size: 19px;
     color: #040404;
-    background-color: #fefffd;
-    border-radius: 10px;
-}
+  }
 
-    select.form-select option {
-        font-family: "Times New Roman", serif;
-        font-size: 19px;
-        color: #040404;
-    }
-
-    select.form-select:hover {
-        background-color: #7cbfcc26;
-    }
+  select.form-select:hover {
+    background-color: #7cbfcc26;
+  }
 
 
 .btn-primary {
-    color: #fff;
-    background-color: #2b3b39cc !important;
-    border-color: #1861ac;
-    margin-top: 10px;
-    font-family: "Times New Roman", serif;
+  color: #fff;
+  background-color: #2b3b39cc !important;
+  border-color: #1861ac;
+  margin-top: 10px;
+  font-family: "Times New Roman", serif;
 }
