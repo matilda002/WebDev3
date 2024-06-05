@@ -42,14 +42,12 @@ button.accept-policy {
 
 
 .footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    white-space: nowrap;
-    line-height: 60px;
-    background-color: #2b3b39cc;
-    color: #ffffff !important;
-    font-family: "Times New Roman", Times, serif !important;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+  
 }
 
 
