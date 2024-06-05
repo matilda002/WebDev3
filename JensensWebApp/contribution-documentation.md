@@ -1,4 +1,4 @@
-# Contributions for [WebDeb3](https://github.com/matilda002/WebDev3) | Assigment 1, 2024-06-05
+# Contributions for [WebDev3](https://github.com/matilda002/WebDev3) | Assigment 1, 2024-06-05
 
 ## Matilda's contribution 
 
