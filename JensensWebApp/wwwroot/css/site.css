@@ -1,46 +1,40 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
-html {
-  position: relative;
-  min-height: 100%;
-} 
-
 body {
-  font-family: arial,sans-serif; 
-  font-size: 16px; 
-  color: #0a1011; 
-  margin-bottom: 60px;
-  background-color: #7CBFCC;
-  justify-content: center;
-} 
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    color: #0a1011;
+    margin-bottom: 60px;
+    background-color: #7CBFCC;
+    justify-content: center;
+}
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Times new roman", serif; 
-  color: #040404; 
+    font-family: "Times New Roman", serif;
+    color: #040404;
 }
 
 p, span, a, li {
-  color: #373939;
+    color: #373939;
 }
 
-h1{
-text-align:center;
+h1 {
+    text-align: center;
 }
 
-.navbar-brand{
-
- text-align: right;
- color: #997FFF !important;
-
-}
+.navbar-brand {
+    text-align: right;
+    color: #997FFF !important;
 }
 
 header .navbar {
@@ -54,33 +48,23 @@ header .nav-link {
     color: #ffffff !important;
 }
 
-
 .center-title {
     text-align: center;
 }
 
-label {
+label,
+select.form-select,
+select.form-select option {
     font-family: "Times New Roman", Times, serif;
     font-size: calc(14px + 5px);
 }
 
 select.form-select {
-    font-family: "Times New Roman", Times, serif;
-    font-size: calc(14px + 5px);
-    color: #000; 
-    background-color: #97d3cabf; 
-    border: 1px solid #4a627a; 
-}
-
-select.form-select option {
-    font-family: "Times New Roman", Times, serif;
-    font-size: calc(14px + 5px);
-    color: #000; 
+    color: #000;
+    background-color: #97d3cabf;
+    border: 1px solid #4a627a;
 }
 
 .select-dropdown:focus {
-    box-shadow: 0 0 0 0.5rem rgba(151, 211, 202, 0.75) !important; 
+    box-shadow: 0 0 0 0.5rem rgba(151, 211, 202, 0.75) !important;
 }
-
-
-
