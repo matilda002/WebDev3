@@ -1,0 +1,25 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+  <body> 
+
+    <div id="content"></div> 
+
+    <script> <!-- The <script> tag is used to embed or reference JavaScript code -->
+      var xhr = new XMLHttpRequest(); // This line creates a new instance of the XMLHttpRequest object, which allows to make HTTP requests from JavaScript
+
+      xhr.open('GET', 'data.txt', true); // The open() method initializes a newly-created request or re-initializes an existing one. 'GET' is the HTTP method, 'data.txt' is the file we're requesting, and 'true' makes the request asynchronous
+
+      xhr.onreadystatechange = function() { // The onreadystatechange property defines a function to be executed when the ready state changes
+          if (xhr.readyState == 4 && xhr.status == 200) { // The readyState property holds the status of the XMLHttpRequest. 4 means the request is complete. The status property returns the status-number of a request. 200 means "OK"
+              document.getElementById('content').textContent = xhr.responseText; // If the request was successful, we grab the div with id 'content' and set its textContent to the response text from the server. xhr.responseText holds the response data as a string
+          }
+      };
+
+      xhr.send(); // The send() method sends the request to the server. If the request is asynchronous (which is true in our case), this method returns as soon as the request is sent and the result is delivered using events
+      
+    </script> 
+   
+  </body> 
+
+</html> 

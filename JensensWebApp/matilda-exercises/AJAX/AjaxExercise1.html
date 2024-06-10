@@ -1,0 +1,13 @@
+<script>
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', 'data.txt', true);
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState == 4 && xhr.status == 200) {
+            console.log(xhr.responseText);
+        }
+    };
+    xhr.send();
+    </script>
+    
+    
+    <!-- create a text file in the same directory as the HTML file and use AJAX to fetch and log the contents of the text file -->
