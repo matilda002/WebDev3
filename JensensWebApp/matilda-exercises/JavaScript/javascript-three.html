@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="javascript-three.js"></script>
+        <title>Exercise Three JavaScript</title>
+        <style>
+            span {
+                font-weight: bold;
+            }
+            span#sequence {
+                font-weight: lighter;
+            }
+            footer {
+                color: gray; 
+                font-size: small;
+            }
+        </style>
+    </head>
+    <body>
+        <h3>Calucate the factorial of a number below:</h3>
+        <input type="number" id="numberInput"/>
+        <button onclick="factorialResult()">Calculate</button>
+        <p>The factorial number of: <span id="input"></span> is <span id="result"></span></p>
+        <p>Sequence: ( <span id="sequence"></span> )</p>
+
+        <footer>
+            Create a function that takes a number as an argument and calculates the
+            factorial of the number using recursion. The factorial of a number is the
+            product of all positive integers less than or equal to the number.
+            Factorial of 5 in a function = 5! Which is 1 * 2 * 3 * 4 * 5.
+        </footer>
+    </body>
+</html>
