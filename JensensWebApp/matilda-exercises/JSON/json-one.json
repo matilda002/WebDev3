@@ -1,39 +1,39 @@
 {
-    "book": {
-      "title": "Twilight",
-      "author": "Stephenie Meyer",
-      "publicationYear": "2005",
-      "characters": [
-        {
-          "id": "1",
-          "firstName": "Edward",
-          "lastName": "Cullen"
-        },
-        {
-          "id": "2",
-          "firstName": "Bella",
-          "lastName": "Swan"
-        },
-        {
-          "id": "3",
-          "firstName": "Jacob",
-          "lastName": "BIack"
-        },
-        {
-          "id": "4",
-          "firstName": "Alice",
-          "lastName": "Cullen"
-        },
-        {
-          "id": "5",
-          "firstName": "Charlie",
-          "lastName": "Swan"
-        },
-        {
-          "id": "6",
-          "firstName": "Leah",
-          "lastName": "Clearwater"
-        }
-      ]
-    }
+  "book": {
+    "title": "Twilight",
+    "author": "Stephenie Meyer",
+    "publicationYear": "2005",
+    "characters": [
+      {
+        "id": "1",
+        "firstName": "Edward",
+        "lastName": "Cullen"
+      },
+      {
+        "id": "2",
+        "firstName": "Bella",
+        "lastName": "Swan"
+      },
+      {
+        "id": "3",
+        "firstName": "Jacob",
+        "lastName": "BIack"
+      },
+      {
+        "id": "4",
+        "firstName": "Alice",
+        "lastName": "Cullen"
+      },
+      {
+        "id": "5",
+        "firstName": "Charlie",
+        "lastName": "Swan"
+      },
+      {
+        "id": "6",
+        "firstName": "Leah",
+        "lastName": "Clearwater"
+      }
+    ]
   }
+}
