@@ -1,16 +1,29 @@
 <!DOCTYPE html>
-
 <html>
     <head>
-        <script src="javascript-one.js"></script>
         <title>Exercise One JavaScript</title>
     </head>
     <body>
         <h2>Sum of numbers that multiples with 3 or 5</h1>
-        <p>Enter a number below:</p>
-        <input type="number" id="numberInput" />
-        <button onclick="multiplySum()">Calculate</button>
-        <p style="font-weight: bold;">The sum is: <span style="font-weight: lighter;" id="result"></span></p>
-        <footer style="color: gray;">A simple program that takes in a number (n) from the user and outputs the sum of all numbers from 1 to n, but only including those numbers that are either multiples of 3 or 5</footer>
+            <p>Enter a number below:</p>
+            <input type="number" id="numberInput" />
+            <button onclick="multiplySum()">Calculate</button>
+            <p>The sum is: <span style="font-weight: bold;" id="result"></span></p>
+
+            <!--JavaScript code-->
+            <script>
+                function multiplySum() {
+                    var n = parseInt(document.getElementById("numberInput").value);
+                    var sum = 0;
+
+                    for (var i = 1; i <= n; i++) {
+                        if (i % 3 === 0 || i % 5 === 0) {
+                            sum += i;
+                        }
+                    }
+
+                    document.getElementById("result").textContent = sum;
+                }
+            </script>
     </body>
 </html>

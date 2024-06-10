@@ -7,15 +7,19 @@
                 font-weight: bold;
                 font-size: large;
             }
-            button {
-                height: 50px;
-                width: 100px;
-            }
         </style>
     </head>
     <body>
         <button id="button">Click Me</button>
-        <p>Number of times button has been clicked: <span id="count"></span></p>        
-        <script src="javascript-seven.js"></script>
+        <p>Number of times button has been clicked: <span id="count"></span></p>
+        <script>
+            let count = 0;
+            const button = document.getElementById("button");
+            let countDisplay = document.getElementById("count");
+            button.addEventListener("click", function () {
+                count++;
+                countDisplay.innerHTML = count;
+            });
+        </script>
     </body>
 </html>

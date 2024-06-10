@@ -1,33 +1,41 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script src="javascript-three.js"></script>
         <title>Exercise Three JavaScript</title>
         <style>
-            span {
+            span#input,
+            span#result {
                 font-weight: bold;
-            }
-            span#sequence {
-                font-weight: lighter;
-            }
-            footer {
-                color: gray; 
-                font-size: small;
             }
         </style>
     </head>
     <body>
         <h3>Calculate the factorial of a number below:</h3>
-        <input type="number" id="numberInput"/>
+        <input type="number" id="numberInput" />
         <button onclick="factorialResult()">Calculate</button>
         <p>The factorial number of: <span id="input"></span> is <span id="result"></span></p>
         <p>Sequence: ( <span id="sequence"></span> )</p>
 
-        <footer>
-            Create a function that takes a number as an argument and calculates the
-            factorial of the number using recursion. The factorial of a number is the
-            product of all positive integers less than or equal to the number.
-            Factorial of 5 in a function = 5! Which is 1 * 2 * 3 * 4 * 5.
-        </footer>
+        <!--JavaScript code-->
+        <script>
+            function factorialCalculation(n) {
+                if (n === 0) {
+                    return { result: 1, sequence: "1" };
+                } else {
+                    const previous = factorialCalculation(n - 1);
+                    const result = n * previous.result;
+                    const sequence = previous.sequence + " * " + n;
+                    return { result: result, sequence: sequence };
+                }
+            }
+
+            function factorialResult() {
+                const n = parseInt(document.getElementById("numberInput").value);
+                const factorial = factorialCalculation(n);
+                document.getElementById("input").textContent = n;
+                document.getElementById("result").textContent = factorial.result;
+                document.getElementById("sequence").textContent = factorial.sequence;
+            }
+        </script>
     </body>
 </html>
