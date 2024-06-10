@@ -46,7 +46,7 @@ pet name does not ex ist in the list, return "Pet not found".
 Write a higher order function named calculate that takes two numbers and a
 callback function as arguments. The callback function should perform an
 operation on the two numbers (such as addition, subtraction, multiplication, or
-d ivision). Demonstrate usage of calculate with different operations.
+division). Demonstrate usage of calculate with different operations.
 
 ### Exercise Six: Objects
 Create a class named Car that has properties make, model, and year. The class
@@ -62,4 +62,4 @@ it updates the paragraph text with the number of times the button has been click
 ### Exercise Eight: Handling Events
 Create an HTML page with three coloured div elements (red, green, blue) and a
 paragraph. When a div is clicked, the text within the paragraph should update
-to display which colour was clicked.
+to display which color was clicked.
