@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise One ECMAScript</title>
+    </head>
+    <body>
+        <p>Result in console</p>
+
+        <!--ECMAScript code-->
+        <script>
+
+            const bookData = [
+                { title: "Twilight", author: "Stephenie Meyer", publicationYear: 2005 },
+                { title: "New Moon", author: "Stephenie Meyer", publicationYear: 2006 },
+                { title: "Eclipse", author: "Stephenie Meyer", publicationYear: 2007 },
+                { title: "Breaking Dawn", author: "Stephenie Meyer", publicationYear: 2008 },
+                { title: "Midnight Sun", author: "Stephenie Meyer", publicationYear: 2020 },
+                { title: "Harry Potter and the Philosophers Stone", author: "J. K. Rowling", publicationYear: 1997 },
+                { title: "Harry Potter and the Chamber of Secrets", author: "J. K. Rowling", publicationYear: 1998 },
+                { title: "Harry Potter and the Prisoner of Azkaban", author: "J. K. Rowling", publicationYear: 1999 },
+                { title: "Harry Potter and the Goblet of Fire", author: "J. K. Rowling", publicationYear: 2000 },
+                { title: "Harry Potter and the Order of the Phoenix ", author: "J. K. Rowling", publicationYear: 2003 },
+                { title: "Harry Potter and the Half-Blood Prince", author: "J. K. Rowling", publicationYear: 2005 },
+                { title: "Harry Potter and the Deathly Hallows", author: "J. K. Rowling", publicationYear: 2007 }
+            ];
+
+            class Book {
+                constructor(title, author, publicationYear){
+                    this.title = title;
+                    this.author = author;
+                    this.publicationYear = publicationYear;
+                }
+
+                getBookInfo(){
+                    console.log(`${this.title} by ${this.author}, published in ${this.publicationYear}`);
+                }
+            }
+
+            // mapping out the array of bookData objects to correctly be added into the class Book. 
+            // Alterative from a foreach-loop
+            function mapBookData(book) {
+                return book.map(bookData => new Book(bookData.title, bookData.author, bookData.publicationYear));
+            }
+            // executing function
+            const addBooks = mapBookData(bookData);
+            
+            // printing out all books in the console
+            addBooks.forEach(book => book.getBookInfo());
+
+
+            class Library {
+                constructor(name, books){
+                    this.name = name;
+                    this.books = []
+                }
+
+                addBook(book) {
+                    this.books.push(book);
+                }
+
+                removeBook(bookTitle) {
+                    this.books = this.books.filter(book => book.title !== bookTitle);
+                }
+
+                listBooks() {
+                    this.books.forEach(book => {
+                        console.log(`${book.title} by ${book.author}, published in ${book.publicationYear}`);
+                    });
+                }
+            }
+
+            const vampLibrary = new Library("Vampire Library");
+            
+            addBooks.forEach(book => vampLibrary.addBook(book));
+            vampLibrary.listBooks();
+
+            const wizLibrary = new Library("Wizard Library");
+
+        </script>
+    </body>
+</html>
